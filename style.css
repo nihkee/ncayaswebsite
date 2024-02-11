@@ -1,0 +1,185 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier";
+  }
+
+/*nav bar start*/
+
+.logo {
+    margin-left: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #F1FAEE;
+    background-color: #4C4768;
+}
+
+.navBar {
+    margin-left: auto;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    padding: 20px;
+}
+
+header li:hover {
+    background-color: #817091;
+}
+
+header li a {
+    color: #E0E1DD;
+    text-decoration: none;
+}
+
+/*nav bar end*/
+
+/*hero start*/
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.heroText {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E0E1DD;
+    font-family: "Brush Script MT";
+}
+
+/* hero end */
+
+/* about start */
+
+.about {
+    margin-top: 50vh;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    background-color: #E0E1DD;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.aboutText {
+    text-align: center;
+    color: #4C4768;
+    padding-right: 22%;
+    padding-left: 22%;
+    padding-top: 3%;
+}
+
+.mePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 20%;
+    max-height: 30%;
+    border-radius: 50%;
+}
+
+/* experience start */
+
+.experience {
+    padding-top: 2%;
+    color: #E0E1DD;
+    text-align: center;
+    background-color: #415a77;
+}
+
+.experienceText {
+    padding-top: 4%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.research, .studentCouncil, .hackUMBC, .arTherapy {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    background-color: #415a77;
+    color: #E0E1DD;
+}
+
+.studentCouncil, .arTherapy {
+    background-color: #4F6784;
+}
+.researchPics, .studentCouncilPics, .hackUMBCPics, .arTherapyPics {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.researchPic, .studentCouncilPic1, .studentCouncilPic2, .hackPic1, .hackPic2, .hackPic3, .arTherapyPic1, .arTherapyPic2 {
+    width: 60%;
+    height: auto;
+    min-width: 200px;
+}
+
+.researchText, .studentCouncilText, .hackUMBCText, .arTherapyText {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.expHeadings {
+    background-color: #f197a3;
+    border-radius: 50px;
+    padding: 2%;
+    color: #E0E1DD;
+}
+
+.pinkText {
+    color: #f197a3;
+}
+
+.spaceIconPic {
+    max-width: 8%;
+    max-height: 8%;
+}
+
+
+/* experience end */ 
+
+/* footer start */
+
+.footer {
+    text-align: center;
+    background-color: #4C4768;  
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:#E0E1DD;
+}
+
+/* footer end */
